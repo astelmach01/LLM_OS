@@ -5,7 +5,7 @@ def main():
     cpu = CPU()
     while True:
         prompt = input("You: ")
-        _ = cpu.streaming_chat(prompt)
-        print()
+        response = cpu.chat(prompt)
+        print(response)
         if prompt == "exit":
             break

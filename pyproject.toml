@@ -11,8 +11,12 @@ openai = "^1.23.2"
 pydantic = "^2.7.0"
 python-dotenv = "^1.0.1"
 pydantic-settings = "^2.2.1"
-mypy = "^1.9.0"
+chromadb = "^0.4.24"
+pytest = "^8.1.1"
+langchain = "^0.1.16"
 
+[tool.poetry.dev-dependencies]
+mypy = "^1.9.0"
 
 [build-system]
 requires = ["poetry-core"]

@@ -4,6 +4,8 @@ This is an implementation of LLM OS, an operating system with an LLM at the fore
 
 ![LLM OS](twitter.png)
 
+*[As imagined by Andrej Karpathy](https://twitter.com/karpathy/status/1723140519554105733?lang=en)*
+
 ## Setup
 
 ### Install Poetry
