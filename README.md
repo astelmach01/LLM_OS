@@ -17,6 +17,11 @@ curl -sSL <https://install.python-poetry.org> | python3 -
 ```shell
 poetry shell
 poetry install
+```
+
+If you're making changes in the repository, you can also install the pre-commit hooks with:
+
+```shell
 pre-commit install
 ```
 
